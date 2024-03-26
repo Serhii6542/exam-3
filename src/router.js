@@ -1,11 +1,11 @@
-import { createBrowserRouter } from 'react-router-dom'
+import { createHashRouter } from 'react-router-dom'
 import HomePage from './pages/Home.jsx'
 import Layout from './layouts/Layout.jsx'
 import NotFound from './pages/NotFound.jsx'
 import MoviePage from './pages/Movie.jsx'
 import FavListPage from './pages/FavListPage.jsx'
 
-export default createBrowserRouter([
+export default createHashRouter([
   {
     path: '/',
     Component: Layout,
